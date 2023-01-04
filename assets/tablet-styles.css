@@ -1,0 +1,81 @@
+@media screen and (min-width: 45em) {
+    body {
+        background-image: url(assets/bg-main-tablet.png), url(assets/bg-pattern-1.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: -50vw -20vh, 70vw -2vh;
+        background-size: 150%, 35%;
+    }
+
+    .top-section {
+        padding: 2rem;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    h1 {
+        max-width: 20rem;
+        font-size: 3rem;
+    }
+
+    .body-1 {
+        margin-right: 15rem;
+    }
+
+    .image-section {
+        background-position: 25vh -4vw;
+        background-size: 40%;
+        position: relative;
+        margin: 2rem 2rem 10rem;
+    }
+
+    .phone-image {
+        width: 38%;
+        max-width: 343px;
+        top: -15vh;
+        left: -20vw;
+    }
+
+    .orange-section {
+        position: absolute;
+        top: 17vh;
+        left: 30vw;
+        width: 55%;
+        max-width: 482px;
+        padding: 2.75rem;
+        padding: 1.5rem 2.5rem;
+    }
+
+    h2 {
+        margin-bottom: 0.75rem;
+    }
+
+    .body-2 {
+        margin-bottom: 1rem;
+    }
+
+    footer {
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .tablet-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+        max-width: 20rem;
+    }
+
+    footer a {
+        font-size: 0.9rem;
+    }
+
+    address {
+        display: inline;
+    }
+}

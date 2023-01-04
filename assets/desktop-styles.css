@@ -1,0 +1,87 @@
+@media screen and (min-width: 75em) {
+    body {
+     padding: 3rem 8rem;
+     background-image: url(assets/bg-main-desktop.png), url(assets/bg-pattern-1.svg);
+     background-size: 150%, 18%;
+     background-position: -35vw -35vh, 82vw -2vh;
+    }
+
+    .top-section {
+        padding: 0;
+    }
+
+    .logo {
+        width: 12%;
+    }
+
+    h1 {
+        font-size: 5.5rem;
+        max-width: 60rem;
+        line-height: 1;
+        letter-spacing: -1px;
+    }
+
+    .body-1 {
+        max-width: 53rem;
+        font-size: 1.25rem;
+        line-height: 2.125;
+        margin-bottom: 25rem;
+    }
+
+    .image-section {
+        margin: 0;
+        background-position: center -5vh;
+        background-size: 25%;
+        margin-bottom: 10rem;
+    }
+
+    .phone-image {
+        max-width: 25%;
+        
+        top: -25vh;
+        left: 13.4vw;
+        position: absolute;
+    }
+
+    .orange-section {
+        min-width: 32%;
+        max-width: 35%;
+        padding: 2rem 3rem;
+        top: 12vh;
+        left: 27vh;
+        position: relative;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .body-2 {
+        line-height: 1.625;
+        letter-spacing: 0.5px;
+        font-size: 1rem;
+    }
+
+    .price {
+        margin-bottom: 2rem;
+    }
+
+    .android-button {
+        margin-bottom: 0.5rem;
+    }
+
+    footer {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .logo:last-of-type {
+        margin-top: 0;
+    }
+
+    .footer-text {
+        margin-right: 25rem;
+    }
+}
